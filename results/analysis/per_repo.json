@@ -1,0 +1,147 @@
+{
+  "per_repo": {
+    "flask": {
+      "n_total": 140,
+      "n_applied": 130,
+      "applied_per_condition": {
+        "A": 35,
+        "C": 35,
+        "G": 25,
+        "T": 35
+      },
+      "h2_paired_wilcoxon": {
+        "A_vs_T": {
+          "n_pairs": 35,
+          "median_diff": 2.0,
+          "p": 3.9e-05
+        },
+        "G_vs_T": {
+          "n_pairs": 25,
+          "median_diff": 1.0,
+          "p": 0.000942
+        },
+        "C_vs_T": {
+          "n_pairs": 35,
+          "median_diff": 1.0,
+          "p": 8.3e-05
+        }
+      },
+      "cliffs_delta_vs_T_on_delta_cc": {
+        "A_vs_T": 0.6286,
+        "G_vs_T": 0.56,
+        "C_vs_T": 0.5429
+      },
+      "h5_spearman_quality_vs_pass": {
+        "n": 118,
+        "rho": -0.1983,
+        "p": 0.031313
+      },
+      "median_pass_ratio": {
+        "T": 0.9667,
+        "A": 0.9648,
+        "G": 0.9667,
+        "C": 0.963
+      }
+    },
+    "httpie": {
+      "n_total": 140,
+      "n_applied": 129,
+      "applied_per_condition": {
+        "A": 35,
+        "C": 35,
+        "G": 24,
+        "T": 35
+      },
+      "h2_paired_wilcoxon": {
+        "A_vs_T": {
+          "n_pairs": 35,
+          "median_diff": 4.0,
+          "p": 2e-06
+        },
+        "G_vs_T": {
+          "n_pairs": 24,
+          "median_diff": 3.0,
+          "p": 0.000128
+        },
+        "C_vs_T": {
+          "n_pairs": 35,
+          "median_diff": 3.0,
+          "p": 2e-06
+        }
+      },
+      "cliffs_delta_vs_T_on_delta_cc": {
+        "A_vs_T": 0.8286,
+        "G_vs_T": 0.7917,
+        "C_vs_T": 0.8286
+      },
+      "h5_spearman_quality_vs_pass": {
+        "n": 116,
+        "rho": 0.0774,
+        "p": 0.408654
+      },
+      "median_pass_ratio": {
+        "T": 0.9583,
+        "A": 0.9583,
+        "G": 0.9542,
+        "C": 0.9554
+      }
+    },
+    "requests": {
+      "n_total": 140,
+      "n_applied": 131,
+      "applied_per_condition": {
+        "A": 35,
+        "C": 35,
+        "G": 26,
+        "T": 35
+      },
+      "h2_paired_wilcoxon": {
+        "A_vs_T": {
+          "n_pairs": 35,
+          "median_diff": 2.0,
+          "p": 1.2e-05
+        },
+        "G_vs_T": {
+          "n_pairs": 26,
+          "median_diff": 2.0,
+          "p": 0.000191
+        },
+        "C_vs_T": {
+          "n_pairs": 35,
+          "median_diff": 3.0,
+          "p": 2.6e-05
+        }
+      },
+      "cliffs_delta_vs_T_on_delta_cc": {
+        "A_vs_T": 0.7143,
+        "G_vs_T": 0.6923,
+        "C_vs_T": 0.6571
+      },
+      "h5_spearman_quality_vs_pass": {
+        "n": 119,
+        "rho": -0.1229,
+        "p": 0.183126
+      },
+      "median_pass_ratio": {
+        "T": 0.9969,
+        "A": 0.9969,
+        "G": 0.9969,
+        "C": 0.9969
+      }
+    }
+  },
+  "kruskal_repos_in_A": {
+    "sizes_per_repo": [
+      35,
+      35,
+      35
+    ],
+    "repos": [
+      "flask",
+      "httpie",
+      "requests"
+    ],
+    "H": 3.241,
+    "p": 0.197789
+  }
+}

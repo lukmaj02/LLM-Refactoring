@@ -1,0 +1,218 @@
+{
+  "bootstrap_median_ci": {
+    "delta_cc": {
+      "A": {
+        "n": 105,
+        "median": 3.0,
+        "ci_low": 2.0,
+        "ci_high": 5.0,
+        "method": "percentile"
+      },
+      "C": {
+        "n": 105,
+        "median": 3.0,
+        "ci_low": 2.0,
+        "ci_high": 4.0,
+        "method": "percentile"
+      },
+      "G": {
+        "n": 75,
+        "median": 2.0,
+        "ci_low": 1.0,
+        "ci_high": 3.0,
+        "method": "percentile"
+      },
+      "T": {
+        "n": 105,
+        "median": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "method": "percentile"
+      }
+    },
+    "delta_mi": {
+      "A": {
+        "n": 105,
+        "median": -4.95,
+        "ci_low": -9.12,
+        "ci_high": -2.96,
+        "method": "BCa"
+      },
+      "C": {
+        "n": 105,
+        "median": -1.58,
+        "ci_low": -3.01,
+        "ci_high": -0.63,
+        "method": "BCa"
+      },
+      "G": {
+        "n": 75,
+        "median": 0.0,
+        "ci_low": -0.59,
+        "ci_high": 0.0,
+        "method": "percentile"
+      },
+      "T": {
+        "n": 105,
+        "median": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "method": "percentile"
+      }
+    },
+    "quality_score": {
+      "A": {
+        "n": 105,
+        "median": 9.0,
+        "ci_low": 8.0,
+        "ci_high": 9.0,
+        "method": "percentile"
+      },
+      "C": {
+        "n": 105,
+        "median": 8.0,
+        "ci_low": 7.0,
+        "ci_high": 9.0,
+        "method": "BCa"
+      },
+      "G": {
+        "n": 75,
+        "median": 8.0,
+        "ci_low": 8.0,
+        "ci_high": 9.0,
+        "method": "percentile"
+      },
+      "T": {
+        "n": 104,
+        "median": 5.0,
+        "ci_low": 5.0,
+        "ci_high": 5.0,
+        "method": "percentile"
+      }
+    },
+    "pass_ratio": {
+      "A": {
+        "n": 96,
+        "median": 0.967,
+        "ci_low": 0.958,
+        "ci_high": 0.97,
+        "method": "percentile"
+      },
+      "C": {
+        "n": 95,
+        "median": 0.967,
+        "ci_low": 0.958,
+        "ci_high": 0.974,
+        "method": "BCa"
+      },
+      "G": {
+        "n": 66,
+        "median": 0.967,
+        "ci_low": 0.958,
+        "ci_high": 0.987,
+        "method": "BCa"
+      },
+      "T": {
+        "n": 96,
+        "median": 0.967,
+        "ci_low": 0.958,
+        "ci_high": 0.973,
+        "method": "percentile"
+      }
+    }
+  },
+  "cliffs_vs_T": {
+    "delta_cc": {
+      "A_vs_T": {
+        "n_a": 105,
+        "n_b": 105,
+        "cliffs_delta": 0.7238,
+        "A12": 0.8619,
+        "magnitude": "large"
+      },
+      "C_vs_T": {
+        "n_a": 105,
+        "n_b": 105,
+        "cliffs_delta": 0.6762,
+        "A12": 0.8381,
+        "magnitude": "large"
+      },
+      "G_vs_T": {
+        "n_a": 75,
+        "n_b": 105,
+        "cliffs_delta": 0.68,
+        "A12": 0.84,
+        "magnitude": "large"
+      }
+    },
+    "delta_mi": {
+      "A_vs_T": {
+        "n_a": 105,
+        "n_b": 105,
+        "cliffs_delta": -0.5871,
+        "A12": 0.2064,
+        "magnitude": "large"
+      },
+      "C_vs_T": {
+        "n_a": 105,
+        "n_b": 105,
+        "cliffs_delta": -0.5079,
+        "A12": 0.246,
+        "magnitude": "large"
+      },
+      "G_vs_T": {
+        "n_a": 75,
+        "n_b": 105,
+        "cliffs_delta": -0.1453,
+        "A12": 0.4274,
+        "magnitude": "negligible"
+      }
+    },
+    "quality_score": {
+      "A_vs_T": {
+        "n_a": 105,
+        "n_b": 104,
+        "cliffs_delta": 0.6768,
+        "A12": 0.8384,
+        "magnitude": "large"
+      },
+      "C_vs_T": {
+        "n_a": 105,
+        "n_b": 104,
+        "cliffs_delta": 0.7535,
+        "A12": 0.8767,
+        "magnitude": "large"
+      },
+      "G_vs_T": {
+        "n_a": 75,
+        "n_b": 104,
+        "cliffs_delta": 0.6308,
+        "A12": 0.8154,
+        "magnitude": "large"
+      }
+    },
+    "pass_ratio": {
+      "A_vs_T": {
+        "n_a": 96,
+        "n_b": 96,
+        "cliffs_delta": -0.0711,
+        "A12": 0.4645,
+        "magnitude": "negligible"
+      },
+      "C_vs_T": {
+        "n_a": 95,
+        "n_b": 96,
+        "cliffs_delta": -0.0891,
+        "A12": 0.4554,
+        "magnitude": "negligible"
+      },
+      "G_vs_T": {
+        "n_a": 66,
+        "n_b": 96,
+        "cliffs_delta": -0.0949,
+        "A12": 0.4526,
+        "magnitude": "negligible"
+      }
+    }
+  }
+}

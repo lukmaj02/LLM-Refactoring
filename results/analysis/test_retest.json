@@ -1,0 +1,103 @@
+{
+  "n_pairs_total": 389,
+  "per_condition": {
+    "A": 105,
+    "C": 105,
+    "G": 74,
+    "T": 105
+  },
+  "dimensions": {
+    "quality_score": {
+      "n_pairs": 224,
+      "spearman_rho": 0.6163,
+      "spearman_p": 0.0,
+      "icc_2_1": {
+        "n": 224,
+        "icc": 0.4553,
+        "ci_low": 0.3439,
+        "ci_high": 0.5523,
+        "interpretation": "poor"
+      },
+      "kappa_quadratic": 0.4542,
+      "mean_diff": 0.04,
+      "mean_abs_diff": 1.138,
+      "sd_diff": 2.268,
+      "loa_lower": -4.404,
+      "loa_upper": 4.485
+    },
+    "solid_score": {
+      "n_pairs": 224,
+      "spearman_rho": 0.727,
+      "spearman_p": 0.0,
+      "icc_2_1": {
+        "n": 224,
+        "icc": 0.6993,
+        "ci_low": 0.6389,
+        "ci_high": 0.7697,
+        "interpretation": "moderate"
+      },
+      "kappa_quadratic": 0.722,
+      "mean_diff": 0.335,
+      "mean_abs_diff": 0.79,
+      "sd_diff": 1.375,
+      "loa_lower": -2.361,
+      "loa_upper": 3.031
+    },
+    "dry_score": {
+      "n_pairs": 224,
+      "spearman_rho": 0.3686,
+      "spearman_p": 0.0,
+      "icc_2_1": {
+        "n": 224,
+        "icc": 0.4598,
+        "ci_low": 0.3523,
+        "ci_high": 0.5589,
+        "interpretation": "poor"
+      },
+      "kappa_quadratic": 0.4827,
+      "mean_diff": 0.156,
+      "mean_abs_diff": 0.799,
+      "sd_diff": 1.388,
+      "loa_lower": -2.564,
+      "loa_upper": 2.876
+    },
+    "kiss_score": {
+      "n_pairs": 224,
+      "spearman_rho": 0.5433,
+      "spearman_p": 0.0,
+      "icc_2_1": {
+        "n": 224,
+        "icc": 0.4699,
+        "ci_low": 0.3612,
+        "ci_high": 0.5659,
+        "interpretation": "poor"
+      },
+      "kappa_quadratic": 0.482,
+      "mean_diff": 0.112,
+      "mean_abs_diff": 1.004,
+      "sd_diff": 1.715,
+      "loa_lower": -3.251,
+      "loa_upper": 3.474
+    },
+    "semantic_score": {
+      "n_pairs": 224,
+      "spearman_rho": 0.3964,
+      "spearman_p": 0.0,
+      "icc_2_1": {
+        "n": 224,
+        "icc": 0.3608,
+        "ci_low": 0.2402,
+        "ci_high": 0.4685,
+        "interpretation": "poor"
+      },
+      "kappa_quadratic": 0.3638,
+      "mean_diff": 0.027,
+      "mean_abs_diff": 0.964,
+      "sd_diff": 2.926,
+      "loa_lower": -5.709,
+      "loa_upper": 5.763
+    }
+  },
+  "bland_altman_figure": "C:\\Users\\Lukasz\\Desktop\\master_thesis\\results\\analysis\\figures\\fig_bland_altman_quality_score.png",
+  "bland_altman_semantic": "C:\\Users\\Lukasz\\Desktop\\master_thesis\\results\\analysis\\figures\\fig_bland_altman_semantic_score.png"
+}

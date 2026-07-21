@@ -1,0 +1,720 @@
+{
+  "v1": {
+    "delta_cc": {
+      "A": {
+        "describe": {
+          "n": 105,
+          "mean": 4.314,
+          "median": 3.0,
+          "std": 4.41,
+          "min": 0.0,
+          "q25": 0.0,
+          "q75": 7.0,
+          "max": 17.0,
+          "iqr": 7.0
+        },
+        "shapiro": {
+          "n": 105,
+          "W": 0.87,
+          "p": 0.0,
+          "normal": false
+        }
+      },
+      "C": {
+        "describe": {
+          "n": 105,
+          "mean": 3.971,
+          "median": 3.0,
+          "std": 4.548,
+          "min": -1.0,
+          "q25": 0.0,
+          "q75": 6.0,
+          "max": 19.0,
+          "iqr": 6.0
+        },
+        "shapiro": {
+          "n": 105,
+          "W": 0.8415,
+          "p": 0.0,
+          "normal": false
+        }
+      },
+      "G": {
+        "describe": {
+          "n": 103,
+          "mean": 2.485,
+          "median": 0.0,
+          "std": 4.597,
+          "min": 0.0,
+          "q25": 0.0,
+          "q75": 3.0,
+          "max": 23.0,
+          "iqr": 3.0
+        },
+        "shapiro": {
+          "n": 103,
+          "W": 0.6142,
+          "p": 0.0,
+          "normal": false
+        }
+      },
+      "T": {
+        "describe": {
+          "n": 105,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "q25": 0.0,
+          "q75": 0.0,
+          "max": 0.0,
+          "iqr": 0.0
+        },
+        "shapiro": {
+          "n": 105,
+          "W": null,
+          "p": null,
+          "normal": null
+        }
+      }
+    },
+    "delta_mi": {
+      "A": {
+        "describe": {
+          "n": 105,
+          "mean": -8.674,
+          "median": -5.95,
+          "std": 10.279,
+          "min": -34.14,
+          "q25": -16.07,
+          "q75": 0.0,
+          "max": 15.71,
+          "iqr": 16.07
+        },
+        "shapiro": {
+          "n": 105,
+          "W": 0.9178,
+          "p": 7e-06,
+          "normal": false
+        }
+      },
+      "C": {
+        "describe": {
+          "n": 105,
+          "mean": -4.785,
+          "median": -1.26,
+          "std": 7.587,
+          "min": -34.14,
+          "q25": -8.08,
+          "q75": 0.0,
+          "max": 6.73,
+          "iqr": 8.08
+        },
+        "shapiro": {
+          "n": 105,
+          "W": 0.8485,
+          "p": 0.0,
+          "normal": false
+        }
+      },
+      "G": {
+        "describe": {
+          "n": 103,
+          "mean": 0.863,
+          "median": 0.0,
+          "std": 9.449,
+          "min": -25.77,
+          "q25": -0.555,
+          "q75": 0.0,
+          "max": 44.42,
+          "iqr": 0.555
+        },
+        "shapiro": {
+          "n": 103,
+          "W": 0.6541,
+          "p": 0.0,
+          "normal": false
+        }
+      },
+      "T": {
+        "describe": {
+          "n": 105,
+          "mean": 0.026,
+          "median": 0.0,
+          "std": 0.386,
+          "min": -1.3,
+          "q25": 0.0,
+          "q75": 0.0,
+          "max": 2.68,
+          "iqr": 0.0
+        },
+        "shapiro": {
+          "n": 105,
+          "W": 0.5011,
+          "p": 0.0,
+          "normal": false
+        }
+      }
+    },
+    "quality_score": {
+      "A": {
+        "describe": {
+          "n": 103,
+          "mean": 7.602,
+          "median": 9.0,
+          "std": 2.311,
+          "min": 0.0,
+          "q25": 7.0,
+          "q75": 9.0,
+          "max": 10.0,
+          "iqr": 2.0
+        },
+        "shapiro": {
+          "n": 103,
+          "W": 0.6958,
+          "p": 0.0,
+          "normal": false
+        }
+      },
+      "C": {
+        "describe": {
+          "n": 84,
+          "mean": 8.31,
+          "median": 9.0,
+          "std": 1.299,
+          "min": 3.0,
+          "q25": 8.0,
+          "q75": 9.0,
+          "max": 10.0,
+          "iqr": 1.0
+        },
+        "shapiro": {
+          "n": 84,
+          "W": 0.7571,
+          "p": 0.0,
+          "normal": false
+        }
+      },
+      "G": {
+        "describe": {
+          "n": 51,
+          "mean": 7.0,
+          "median": 8.0,
+          "std": 2.835,
+          "min": 0.0,
+          "q25": 6.5,
+          "q75": 9.0,
+          "max": 10.0,
+          "iqr": 2.5
+        },
+        "shapiro": {
+          "n": 51,
+          "W": 0.7462,
+          "p": 0.0,
+          "normal": false
+        }
+      },
+      "T": {
+        "describe": {
+          "n": 0
+        },
+        "shapiro": {
+          "n": 0,
+          "W": null,
+          "p": null,
+          "normal": null
+        }
+      }
+    },
+    "changed_pct": {
+      "A": {
+        "describe": {
+          "n": 70,
+          "mean": 1.366,
+          "median": 1.371,
+          "std": 0.274,
+          "min": 0.794,
+          "q25": 1.203,
+          "q75": 1.577,
+          "max": 2.05,
+          "iqr": 0.374
+        },
+        "shapiro": {
+          "n": 70,
+          "W": 0.989,
+          "p": 0.804493,
+          "normal": true
+        }
+      },
+      "C": {
+        "describe": {
+          "n": 67,
+          "mean": 1.387,
+          "median": 1.405,
+          "std": 0.337,
+          "min": 0.657,
+          "q25": 1.167,
+          "q75": 1.673,
+          "max": 1.941,
+          "iqr": 0.507
+        },
+        "shapiro": {
+          "n": 67,
+          "W": 0.9667,
+          "p": 0.069629,
+          "normal": true
+        }
+      },
+      "G": {
+        "describe": {
+          "n": 65,
+          "mean": 1.318,
+          "median": 1.227,
+          "std": 0.368,
+          "min": 0.714,
+          "q25": 1.0,
+          "q75": 1.615,
+          "max": 2.232,
+          "iqr": 0.615
+        },
+        "shapiro": {
+          "n": 65,
+          "W": 0.9311,
+          "p": 0.001356,
+          "normal": false
+        }
+      },
+      "T": {
+        "describe": {
+          "n": 2,
+          "mean": 0.929,
+          "median": 0.929,
+          "std": 0.101,
+          "min": 0.857,
+          "q25": 0.893,
+          "q75": 0.964,
+          "max": 1.0,
+          "iqr": 0.071
+        },
+        "shapiro": {
+          "n": 2,
+          "W": null,
+          "p": null,
+          "normal": null
+        }
+      }
+    }
+  },
+  "v2": {
+    "delta_cc": {
+      "A": {
+        "describe": {
+          "n": 105,
+          "mean": 4.152,
+          "median": 3.0,
+          "std": 4.09,
+          "min": 0.0,
+          "q25": 0.0,
+          "q75": 6.0,
+          "max": 17.0,
+          "iqr": 6.0
+        },
+        "shapiro": {
+          "n": 105,
+          "W": 0.8811,
+          "p": 0.0,
+          "normal": false
+        }
+      },
+      "C": {
+        "describe": {
+          "n": 105,
+          "mean": 3.695,
+          "median": 3.0,
+          "std": 4.107,
+          "min": -1.0,
+          "q25": 0.0,
+          "q75": 6.0,
+          "max": 19.0,
+          "iqr": 6.0
+        },
+        "shapiro": {
+          "n": 105,
+          "W": 0.8473,
+          "p": 0.0,
+          "normal": false
+        }
+      },
+      "G": {
+        "describe": {
+          "n": 75,
+          "mean": 3.427,
+          "median": 2.0,
+          "std": 4.107,
+          "min": 0.0,
+          "q25": 0.0,
+          "q75": 5.0,
+          "max": 19.0,
+          "iqr": 5.0
+        },
+        "shapiro": {
+          "n": 75,
+          "W": 0.8072,
+          "p": 0.0,
+          "normal": false
+        }
+      },
+      "T": {
+        "describe": {
+          "n": 105,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "q25": 0.0,
+          "q75": 0.0,
+          "max": 0.0,
+          "iqr": 0.0
+        },
+        "shapiro": {
+          "n": 105,
+          "W": null,
+          "p": null,
+          "normal": null
+        }
+      }
+    },
+    "delta_mi": {
+      "A": {
+        "describe": {
+          "n": 105,
+          "mean": -8.648,
+          "median": -4.95,
+          "std": 10.323,
+          "min": -31.76,
+          "q25": -16.09,
+          "q75": 0.0,
+          "max": 7.04,
+          "iqr": 16.09
+        },
+        "shapiro": {
+          "n": 105,
+          "W": 0.9064,
+          "p": 2e-06,
+          "normal": false
+        }
+      },
+      "C": {
+        "describe": {
+          "n": 105,
+          "mean": -4.697,
+          "median": -1.58,
+          "std": 7.613,
+          "min": -29.14,
+          "q25": -7.83,
+          "q75": 0.0,
+          "max": 7.71,
+          "iqr": 7.83
+        },
+        "shapiro": {
+          "n": 105,
+          "W": 0.8232,
+          "p": 0.0,
+          "normal": false
+        }
+      },
+      "G": {
+        "describe": {
+          "n": 75,
+          "mean": 1.352,
+          "median": 0.0,
+          "std": 9.875,
+          "min": -22.72,
+          "q25": -2.59,
+          "q75": 0.855,
+          "max": 41.22,
+          "iqr": 3.445
+        },
+        "shapiro": {
+          "n": 75,
+          "W": 0.7298,
+          "p": 0.0,
+          "normal": false
+        }
+      },
+      "T": {
+        "describe": {
+          "n": 105,
+          "mean": 0.026,
+          "median": 0.0,
+          "std": 0.386,
+          "min": -1.3,
+          "q25": 0.0,
+          "q75": 0.0,
+          "max": 2.68,
+          "iqr": 0.0
+        },
+        "shapiro": {
+          "n": 105,
+          "W": 0.5011,
+          "p": 0.0,
+          "normal": false
+        }
+      }
+    },
+    "quality_score": {
+      "A": {
+        "describe": {
+          "n": 105,
+          "mean": 7.41,
+          "median": 9.0,
+          "std": 2.571,
+          "min": 1.0,
+          "q25": 7.0,
+          "q75": 9.0,
+          "max": 10.0,
+          "iqr": 2.0
+        },
+        "shapiro": {
+          "n": 105,
+          "W": 0.6989,
+          "p": 0.0,
+          "normal": false
+        }
+      },
+      "C": {
+        "describe": {
+          "n": 105,
+          "mean": 7.619,
+          "median": 8.0,
+          "std": 1.948,
+          "min": 0.0,
+          "q25": 6.0,
+          "q75": 9.0,
+          "max": 10.0,
+          "iqr": 3.0
+        },
+        "shapiro": {
+          "n": 105,
+          "W": 0.8301,
+          "p": 0.0,
+          "normal": false
+        }
+      },
+      "G": {
+        "describe": {
+          "n": 75,
+          "mean": 7.147,
+          "median": 8.0,
+          "std": 2.481,
+          "min": 0.0,
+          "q25": 5.0,
+          "q75": 9.0,
+          "max": 10.0,
+          "iqr": 4.0
+        },
+        "shapiro": {
+          "n": 75,
+          "W": 0.8299,
+          "p": 0.0,
+          "normal": false
+        }
+      },
+      "T": {
+        "describe": {
+          "n": 104,
+          "mean": 4.587,
+          "median": 5.0,
+          "std": 1.391,
+          "min": 0.0,
+          "q25": 5.0,
+          "q75": 5.0,
+          "max": 6.0,
+          "iqr": 0.0
+        },
+        "shapiro": {
+          "n": 104,
+          "W": 0.3357,
+          "p": 0.0,
+          "normal": false
+        }
+      }
+    },
+    "changed_pct": {
+      "A": {
+        "describe": {
+          "n": 105,
+          "mean": 0.541,
+          "median": 0.545,
+          "std": 0.207,
+          "min": 0.0,
+          "q25": 0.391,
+          "q75": 0.725,
+          "max": 0.957,
+          "iqr": 0.335
+        },
+        "shapiro": {
+          "n": 105,
+          "W": 0.9784,
+          "p": 0.083495,
+          "normal": true
+        }
+      },
+      "C": {
+        "describe": {
+          "n": 105,
+          "mean": 0.434,
+          "median": 0.487,
+          "std": 0.275,
+          "min": 0.0,
+          "q25": 0.222,
+          "q75": 0.674,
+          "max": 0.957,
+          "iqr": 0.452
+        },
+        "shapiro": {
+          "n": 105,
+          "W": 0.9341,
+          "p": 5.7e-05,
+          "normal": false
+        }
+      },
+      "G": {
+        "describe": {
+          "n": 75,
+          "mean": 0.494,
+          "median": 0.558,
+          "std": 0.315,
+          "min": 0.0,
+          "q25": 0.299,
+          "q75": 0.748,
+          "max": 0.982,
+          "iqr": 0.449
+        },
+        "shapiro": {
+          "n": 75,
+          "W": 0.9209,
+          "p": 0.000173,
+          "normal": false
+        }
+      },
+      "T": {
+        "describe": {
+          "n": 105,
+          "mean": 0.027,
+          "median": 0.0,
+          "std": 0.05,
+          "min": 0.0,
+          "q25": 0.0,
+          "q75": 0.039,
+          "max": 0.266,
+          "iqr": 0.039
+        },
+        "shapiro": {
+          "n": 105,
+          "W": 0.6136,
+          "p": 0.0,
+          "normal": false
+        }
+      }
+    },
+    "pass_ratio": {
+      "A": {
+        "describe": {
+          "n": 96,
+          "mean": 0.92,
+          "median": 0.967,
+          "std": 0.183,
+          "min": 0.0,
+          "q25": 0.938,
+          "q75": 0.997,
+          "max": 1.0,
+          "iqr": 0.059
+        },
+        "shapiro": {
+          "n": 96,
+          "W": 0.3934,
+          "p": 0.0,
+          "normal": false
+        }
+      },
+      "C": {
+        "describe": {
+          "n": 95,
+          "mean": 0.893,
+          "median": 0.967,
+          "std": 0.231,
+          "min": 0.0,
+          "q25": 0.938,
+          "q75": 0.997,
+          "max": 1.0,
+          "iqr": 0.059
+        },
+        "shapiro": {
+          "n": 95,
+          "W": 0.4543,
+          "p": 0.0,
+          "normal": false
+        }
+      },
+      "G": {
+        "describe": {
+          "n": 66,
+          "mean": 0.931,
+          "median": 0.967,
+          "std": 0.14,
+          "min": 0.0,
+          "q25": 0.938,
+          "q75": 0.997,
+          "max": 1.0,
+          "iqr": 0.059
+        },
+        "shapiro": {
+          "n": 66,
+          "W": 0.432,
+          "p": 0.0,
+          "normal": false
+        }
+      },
+      "T": {
+        "describe": {
+          "n": 96,
+          "mean": 0.938,
+          "median": 0.967,
+          "std": 0.151,
+          "min": 0.0,
+          "q25": 0.938,
+          "q75": 0.997,
+          "max": 1.0,
+          "iqr": 0.059
+        },
+        "shapiro": {
+          "n": 96,
+          "W": 0.3463,
+          "p": 0.0,
+          "normal": false
+        }
+      }
+    }
+  },
+  "figures": [
+    "results\\analysis\\figures\\eda_hist_v1_delta_cc.png",
+    "results\\analysis\\figures\\eda_qq_v1_delta_cc.png",
+    "results\\analysis\\figures\\eda_hist_v1_delta_mi.png",
+    "results\\analysis\\figures\\eda_qq_v1_delta_mi.png",
+    "results\\analysis\\figures\\eda_hist_v1_quality_score.png",
+    "results\\analysis\\figures\\eda_qq_v1_quality_score.png",
+    "results\\analysis\\figures\\eda_hist_v1_changed_pct.png",
+    "results\\analysis\\figures\\eda_qq_v1_changed_pct.png",
+    "results\\analysis\\figures\\eda_hist_v2_delta_cc.png",
+    "results\\analysis\\figures\\eda_qq_v2_delta_cc.png",
+    "results\\analysis\\figures\\eda_hist_v2_delta_mi.png",
+    "results\\analysis\\figures\\eda_qq_v2_delta_mi.png",
+    "results\\analysis\\figures\\eda_hist_v2_quality_score.png",
+    "results\\analysis\\figures\\eda_qq_v2_quality_score.png",
+    "results\\analysis\\figures\\eda_hist_v2_changed_pct.png",
+    "results\\analysis\\figures\\eda_qq_v2_changed_pct.png",
+    "results\\analysis\\figures\\eda_hist_v2_pass_ratio.png",
+    "results\\analysis\\figures\\eda_qq_v2_pass_ratio.png"
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "H1": {
+    "description": "H0: median(semantic_score) >= 8 vs H1: median < 8 (Wilcoxon one-sample, alternative='less')",
+    "results": {
+      "A": {
+        "n": 105,
+        "median": 10.0,
+        "stat": 4463.5,
+        "p": 1.0,
+        "alternative": "less",
+        "p_fdr": 1.0,
+        "fdr_significant": false
+      },
+      "C": {
+        "n": 105,
+        "median": 10.0,
+        "stat": 5356.0,
+        "p": 1.0,
+        "alternative": "less",
+        "p_fdr": 1.0,
+        "fdr_significant": false
+      },
+      "G": {
+        "n": 75,
+        "median": 10.0,
+        "stat": 2277.0,
+        "p": 1.0,
+        "alternative": "less",
+        "p_fdr": 1.0,
+        "fdr_significant": false
+      },
+      "T": {
+        "n": 104,
+        "median": 10.0,
+        "stat": 5356.0,
+        "p": 1.0,
+        "alternative": "less",
+        "p_fdr": 1.0,
+        "fdr_significant": false
+      }
+    },
+    "alpha": 0.05,
+    "mu0": 8
+  },
+  "H2": {
+    "description": "Paired Wilcoxon on delta_cc, AI vs T (same samples)",
+    "results": {
+      "A_vs_T": {
+        "n_pairs": 105,
+        "median_diff": 3.0,
+        "stat": 0.0,
+        "p": 0.0,
+        "effect_r": 0.868,
+        "p_fdr": 0.0,
+        "fdr_significant": true
+      },
+      "G_vs_T": {
+        "n_pairs": 75,
+        "median_diff": 2.0,
+        "stat": 0.0,
+        "p": 0.0,
+        "effect_r": 0.869,
+        "p_fdr": 0.0,
+        "fdr_significant": true
+      },
+      "C_vs_T": {
+        "n_pairs": 105,
+        "median_diff": 3.0,
+        "stat": 5.0,
+        "p": 0.0,
+        "effect_r": 0.867,
+        "p_fdr": 0.0,
+        "fdr_significant": true
+      }
+    },
+    "alpha": 0.05
+  },
+  "H3": {
+    "description": "Kruskal-Wallis: delta_cc across A, G, C",
+    "kruskal": {
+      "k": 3,
+      "n_total": 285,
+      "H": 2.19,
+      "p": 0.334538,
+      "epsilon_sq": 0.0007,
+      "p_fdr": 0.566141,
+      "fdr_significant": false
+    },
+    "dunn_posthoc": {
+      "k_pairs": 3,
+      "pairs": [
+        {
+          "pair": "A vs C",
+          "n_a": 105,
+          "n_b": 105,
+          "p_bonferroni": 0.942642,
+          "significant_005": false,
+          "p_fdr": 1.0,
+          "fdr_significant": false
+        },
+        {
+          "pair": "A vs G",
+          "n_a": 105,
+          "n_b": 75,
+          "p_bonferroni": 0.462722,
+          "significant_005": false,
+          "p_fdr": 0.727135,
+          "fdr_significant": false
+        },
+        {
+          "pair": "C vs G",
+          "n_a": 105,
+          "n_b": 75,
+          "p_bonferroni": 1.0,
+          "significant_005": false,
+          "p_fdr": 1.0,
+          "fdr_significant": false
+        }
+      ],
+      "method": "dunn-bonferroni (scikit-posthocs)"
+    },
+    "alpha": 0.05
+  },
+  "H4": {
+    "description": "Paired Wilcoxon: baseline vs arp pipeline duration",
+    "n_commits": 30,
+    "wilcoxon": {
+      "n_pairs": 30,
+      "median_diff": 4.075,
+      "stat": 0.0,
+      "p": 0.0,
+      "effect_r": 0.873,
+      "p_fdr": 0.0,
+      "fdr_significant": true
+    },
+    "median_baseline_s": 0.82,
+    "median_arp_s": 4.89,
+    "median_overhead_s": 4.07,
+    "alpha": 0.05
+  },
+  "H5": {
+    "description": "H5: czy LLM-judge koreluje z faktycznym pass rate testow?",
+    "spearman_overall": {
+      "n": 353,
+      "rho": -0.082,
+      "p": 0.12614,
+      "p_fdr": 0.25228,
+      "fdr_significant": false
+    },
+    "spearman_per_condition": {
+      "A": {
+        "n": 96,
+        "rho": 0.068,
+        "p": 0.507928,
+        "p_fdr": 0.744961,
+        "fdr_significant": false
+      },
+      "C": {
+        "n": 95,
+        "rho": -0.226,
+        "p": 0.027572,
+        "p_fdr": 0.067398,
+        "fdr_significant": false
+      },
+      "G": {
+        "n": 66,
+        "rho": 0.017,
+        "p": 0.889491,
+        "p_fdr": 1.0,
+        "fdr_significant": false
+      },
+      "T": {
+        "n": 96,
+        "rho": -0.172,
+        "p": 0.093721,
+        "p_fdr": 0.206186,
+        "fdr_significant": false
+      }
+    },
+    "mann_whitney_green_vs_notgreen": {
+      "n_green": 26,
+      "n_notgreen": 327,
+      "median_green": 5.5,
+      "median_notgreen": 8.0,
+      "U": 3637.5,
+      "p": 0.20334,
+      "p_fdr": 0.37279,
+      "fdr_significant": false
+    },
+    "alpha": 0.05
+  },
+  "H6": {
+    "description": "Roznica accept rate v1 (Faza 4+4B) vs v2 (Faza 4C) per warunek",
+    "results": {
+      "A": {
+        "table": [
+          [
+            81,
+            24
+          ],
+          [
+            5,
+            100
+          ]
+        ],
+        "odds_ratio": 67.5,
+        "p": 0.0,
+        "p_fdr": 0.0,
+        "fdr_significant": true
+      },
+      "G": {
+        "table": [
+          [
+            46,
+            59
+          ],
+          [
+            2,
+            73
+          ]
+        ],
+        "odds_ratio": 28.458,
+        "p": 0.0,
+        "p_fdr": 0.0,
+        "fdr_significant": true
+      },
+      "C": {
+        "table": [
+          [
+            70,
+            35
+          ],
+          [
+            4,
+            101
+          ]
+        ],
+        "odds_ratio": 50.5,
+        "p": 0.0,
+        "p_fdr": 0.0,
+        "fdr_significant": true
+      },
+      "T": {
+        "table": [
+          [
+            13,
+            92
+          ],
+          [
+            0,
+            105
+          ]
+        ],
+        "odds_ratio": Infinity,
+        "p": 0.000164,
+        "p_fdr": 0.000451,
+        "fdr_significant": true
+      }
+    },
+    "alpha": 0.05
+  },
+  "multiple_testing": {
+    "n_tests": 22,
+    "method": "Benjamini-Hochberg FDR (statsmodels.fdr_bh)",
+    "alpha": 0.05,
+    "items": [
+      {
+        "test": "H1[A]",
+        "p_raw": 1.0,
+        "p_fdr": 1.0,
+        "sig_fdr_005": false
+      },
+      {
+        "test": "H1[C]",
+        "p_raw": 1.0,
+        "p_fdr": 1.0,
+        "sig_fdr_005": false
+      },
+      {
+        "test": "H1[G]",
+        "p_raw": 1.0,
+        "p_fdr": 1.0,
+        "sig_fdr_005": false
+      },
+      {
+        "test": "H1[T]",
+        "p_raw": 1.0,
+        "p_fdr": 1.0,
+        "sig_fdr_005": false
+      },
+      {
+        "test": "H2[A_vs_T]",
+        "p_raw": 0.0,
+        "p_fdr": 0.0,
+        "sig_fdr_005": true
+      },
+      {
+        "test": "H2[G_vs_T]",
+        "p_raw": 0.0,
+        "p_fdr": 0.0,
+        "sig_fdr_005": true
+      },
+      {
+        "test": "H2[C_vs_T]",
+        "p_raw": 0.0,
+        "p_fdr": 0.0,
+        "sig_fdr_005": true
+      },
+      {
+        "test": "H3[kruskal]",
+        "p_raw": 0.334538,
+        "p_fdr": 0.566141,
+        "sig_fdr_005": false
+      },
+      {
+        "test": "H3[Dunn:A vs C]",
+        "p_raw": 0.942642,
+        "p_fdr": 1.0,
+        "sig_fdr_005": false
+      },
+      {
+        "test": "H3[Dunn:A vs G]",
+        "p_raw": 0.462722,
+        "p_fdr": 0.727135,
+        "sig_fdr_005": false
+      },
+      {
+        "test": "H3[Dunn:C vs G]",
+        "p_raw": 1.0,
+        "p_fdr": 1.0,
+        "sig_fdr_005": false
+      },
+      {
+        "test": "H4[wilcoxon]",
+        "p_raw": 0.0,
+        "p_fdr": 0.0,
+        "sig_fdr_005": true
+      },
+      {
+        "test": "H5[spearman_overall]",
+        "p_raw": 0.12614,
+        "p_fdr": 0.25228,
+        "sig_fdr_005": false
+      },
+      {
+        "test": "H5[spearman_A]",
+        "p_raw": 0.507928,
+        "p_fdr": 0.744961,
+        "sig_fdr_005": false
+      },
+      {
+        "test": "H5[spearman_C]",
+        "p_raw": 0.027572,
+        "p_fdr": 0.067398,
+        "sig_fdr_005": false
+      },
+      {
+        "test": "H5[spearman_G]",
+        "p_raw": 0.889491,
+        "p_fdr": 1.0,
+        "sig_fdr_005": false
+      },
+      {
+        "test": "H5[spearman_T]",
+        "p_raw": 0.093721,
+        "p_fdr": 0.206186,
+        "sig_fdr_005": false
+      },
+      {
+        "test": "H5[MW_green_vs_notgreen]",
+        "p_raw": 0.20334,
+        "p_fdr": 0.37279,
+        "sig_fdr_005": false
+      },
+      {
+        "test": "H6[A]",
+        "p_raw": 0.0,
+        "p_fdr": 0.0,
+        "sig_fdr_005": true
+      },
+      {
+        "test": "H6[G]",
+        "p_raw": 0.0,
+        "p_fdr": 0.0,
+        "sig_fdr_005": true
+      },
+      {
+        "test": "H6[C]",
+        "p_raw": 0.0,
+        "p_fdr": 0.0,
+        "sig_fdr_005": true
+      },
+      {
+        "test": "H6[T]",
+        "p_raw": 0.000164,
+        "p_fdr": 0.000451,
+        "sig_fdr_005": true
+      }
+    ]
+  }
+}

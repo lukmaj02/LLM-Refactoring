@@ -1,0 +1,42 @@
+{
+  "total_runs": 60,
+  "arp_avg_overhead_s": 4.07,
+  "results": [
+    {
+      "repo": "flask",
+      "config": "arp",
+      "count": 10,
+      "avg_duration_s": 6.1
+    },
+    {
+      "repo": "flask",
+      "config": "baseline",
+      "count": 10,
+      "avg_duration_s": 2.1
+    },
+    {
+      "repo": "httpie",
+      "config": "arp",
+      "count": 10,
+      "avg_duration_s": 4.8
+    },
+    {
+      "repo": "httpie",
+      "config": "baseline",
+      "count": 10,
+      "avg_duration_s": 0.7
+    },
+    {
+      "repo": "requests",
+      "config": "arp",
+      "count": 10,
+      "avg_duration_s": 15.2
+    },
+    {
+      "repo": "requests",
+      "config": "baseline",
+      "count": 10,
+      "avg_duration_s": 11.1
+    }
+  ]
+}

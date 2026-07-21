@@ -1,0 +1,97 @@
+{
+  "H2": {
+    "A_vs_T": {
+      "n_pairs": 105,
+      "median_diff": 3.0,
+      "attained_power_alpha005": 1.0
+    },
+    "G_vs_T": {
+      "n_pairs": 75,
+      "median_diff": 2.0,
+      "attained_power_alpha005": 1.0
+    },
+    "C_vs_T": {
+      "n_pairs": 105,
+      "median_diff": 3.0,
+      "attained_power_alpha005": 1.0
+    }
+  },
+  "H3": {
+    "n_per_group": [
+      105,
+      75,
+      105
+    ],
+    "pooled_sd": 4.09,
+    "mdes_analysis": {
+      "curve": [
+        {
+          "shift": 0.409,
+          "power": 0.394
+        },
+        {
+          "shift": 0.818,
+          "power": 0.406
+        },
+        {
+          "shift": 1.227,
+          "power": 0.947
+        },
+        {
+          "shift": 1.636,
+          "power": 0.944
+        },
+        {
+          "shift": 2.045,
+          "power": 1.0
+        },
+        {
+          "shift": 2.454,
+          "power": 1.0
+        },
+        {
+          "shift": 2.863,
+          "power": 1.0
+        },
+        {
+          "shift": 3.272,
+          "power": 1.0
+        },
+        {
+          "shift": 3.681,
+          "power": 1.0
+        },
+        {
+          "shift": 4.09,
+          "power": 1.0
+        }
+      ],
+      "mdes_shift": 1.2269070180844721,
+      "target_power": 0.8,
+      "alpha": 0.05
+    },
+    "interpretation": "Przy n=(105,75,105) i pooled_sd=4.09, minimalny wykrywalny shift mediany (alpha=0.05, power=0.80) wynosi 1.2269070180844721. Obserwowana epsilon^2 = 0.0007 (faktyczna roznica < MDES) wspiera wniosek o BRAKU EFEKTU (nie 'brak detekcji efektu')."
+  },
+  "H4": {
+    "n_pairs": 30,
+    "median_diff_s": 4.075,
+    "attained_power_alpha005": 1.0
+  },
+  "H5": {
+    "n": 353,
+    "rho_observed": -0.0816,
+    "power_to_detect_rho": {
+      "0.1": 0.467,
+      "0.15": 0.8072,
+      "0.2": 0.9666,
+      "0.25": 0.9976,
+      "0.3": 0.9999,
+      "0.5": 1.0
+    },
+    "mdes_rho_for_80pct_power": 0.1486,
+    "interpretation": "Przy n=353 mamy moc >0.99 do wykrycia |rho|>=0.2 i moc 0.8072 do wykrycia |rho|>=0.15. Minimalny wykrywalny |rho| przy mocy 0.80 = 0.149. Obserwowane rho=-0.082 jest WYRAZNIE PONIZEJ tego progu, co uzasadnia twierdzenie 'brak korelacji' (absence of evidence = evidence of absence)."
+  },
+  "alpha": 0.05,
+  "target_power": 0.8,
+  "n_sim": 2000
+}

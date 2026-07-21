@@ -1,0 +1,750 @@
+{
+  "global_matrix_rho": {
+    "cc_before": {
+      "cc_before": 1.0,
+      "mi_before": -0.7605,
+      "delta_cc": 0.6245,
+      "delta_mi": -0.3888,
+      "changed_pct": 0.3586,
+      "quality_score": 0.3621,
+      "solid_score": 0.4831,
+      "dry_score": 0.3016,
+      "kiss_score": 0.4207,
+      "semantic_score": -0.0687,
+      "pass_ratio": -0.1431,
+      "tests_failed": 0.0745,
+      "response_time_s": 0.2484,
+      "tokens_in": 0.0718,
+      "tokens_out": 0.4201
+    },
+    "mi_before": {
+      "cc_before": -0.7605,
+      "mi_before": 1.0,
+      "delta_cc": -0.4626,
+      "delta_mi": 0.2574,
+      "changed_pct": -0.2882,
+      "quality_score": -0.2427,
+      "solid_score": -0.3542,
+      "dry_score": -0.2254,
+      "kiss_score": -0.3217,
+      "semantic_score": 0.0933,
+      "pass_ratio": 0.1114,
+      "tests_failed": -0.0163,
+      "response_time_s": -0.2077,
+      "tokens_in": 0.0063,
+      "tokens_out": -0.3132
+    },
+    "delta_cc": {
+      "cc_before": 0.6245,
+      "mi_before": -0.4626,
+      "delta_cc": 1.0,
+      "delta_mi": -0.5891,
+      "changed_pct": 0.7284,
+      "quality_score": 0.6814,
+      "solid_score": 0.8505,
+      "dry_score": 0.524,
+      "kiss_score": 0.7579,
+      "semantic_score": -0.2205,
+      "pass_ratio": -0.1872,
+      "tests_failed": 0.0514,
+      "response_time_s": 0.6501,
+      "tokens_in": 0.4716,
+      "tokens_out": 0.8464
+    },
+    "delta_mi": {
+      "cc_before": -0.3888,
+      "mi_before": 0.2574,
+      "delta_cc": -0.5891,
+      "delta_mi": 1.0,
+      "changed_pct": -0.4815,
+      "quality_score": -0.509,
+      "solid_score": -0.6394,
+      "dry_score": -0.2847,
+      "kiss_score": -0.5413,
+      "semantic_score": 0.0135,
+      "pass_ratio": 0.0434,
+      "tests_failed": -0.0056,
+      "response_time_s": -0.2636,
+      "tokens_in": -0.2744,
+      "tokens_out": -0.5379
+    },
+    "changed_pct": {
+      "cc_before": 0.3586,
+      "mi_before": -0.2882,
+      "delta_cc": 0.7284,
+      "delta_mi": -0.4815,
+      "changed_pct": 1.0,
+      "quality_score": 0.5976,
+      "solid_score": 0.7148,
+      "dry_score": 0.4034,
+      "kiss_score": 0.6582,
+      "semantic_score": -0.2359,
+      "pass_ratio": -0.0893,
+      "tests_failed": -0.0034,
+      "response_time_s": 0.5904,
+      "tokens_in": 0.4553,
+      "tokens_out": 0.6724
+    },
+    "quality_score": {
+      "cc_before": 0.3621,
+      "mi_before": -0.2427,
+      "delta_cc": 0.6814,
+      "delta_mi": -0.509,
+      "changed_pct": 0.5976,
+      "quality_score": 1.0,
+      "solid_score": 0.8073,
+      "dry_score": 0.4682,
+      "kiss_score": 0.8443,
+      "semantic_score": 0.3189,
+      "pass_ratio": -0.0816,
+      "tests_failed": 0.0319,
+      "response_time_s": 0.534,
+      "tokens_in": 0.4479,
+      "tokens_out": 0.7366
+    },
+    "solid_score": {
+      "cc_before": 0.4831,
+      "mi_before": -0.3542,
+      "delta_cc": 0.8505,
+      "delta_mi": -0.6394,
+      "changed_pct": 0.7148,
+      "quality_score": 0.8073,
+      "solid_score": 1.0,
+      "dry_score": 0.5009,
+      "kiss_score": 0.8355,
+      "semantic_score": -0.0338,
+      "pass_ratio": -0.1411,
+      "tests_failed": 0.0186,
+      "response_time_s": 0.5788,
+      "tokens_in": 0.4571,
+      "tokens_out": 0.8136
+    },
+    "dry_score": {
+      "cc_before": 0.3016,
+      "mi_before": -0.2254,
+      "delta_cc": 0.524,
+      "delta_mi": -0.2847,
+      "changed_pct": 0.4034,
+      "quality_score": 0.4682,
+      "solid_score": 0.5009,
+      "dry_score": 1.0,
+      "kiss_score": 0.5001,
+      "semantic_score": -0.0999,
+      "pass_ratio": -0.1322,
+      "tests_failed": -0.0042,
+      "response_time_s": 0.4179,
+      "tokens_in": 0.3153,
+      "tokens_out": 0.5312
+    },
+    "kiss_score": {
+      "cc_before": 0.4207,
+      "mi_before": -0.3217,
+      "delta_cc": 0.7579,
+      "delta_mi": -0.5413,
+      "changed_pct": 0.6582,
+      "quality_score": 0.8443,
+      "solid_score": 0.8355,
+      "dry_score": 0.5001,
+      "kiss_score": 1.0,
+      "semantic_score": 0.0119,
+      "pass_ratio": -0.0819,
+      "tests_failed": 0.0252,
+      "response_time_s": 0.5619,
+      "tokens_in": 0.4386,
+      "tokens_out": 0.7523
+    },
+    "semantic_score": {
+      "cc_before": -0.0687,
+      "mi_before": 0.0933,
+      "delta_cc": -0.2205,
+      "delta_mi": 0.0135,
+      "changed_pct": -0.2359,
+      "quality_score": 0.3189,
+      "solid_score": -0.0338,
+      "dry_score": -0.0999,
+      "kiss_score": 0.0119,
+      "semantic_score": 1.0,
+      "pass_ratio": 0.0344,
+      "tests_failed": 0.0226,
+      "response_time_s": -0.1492,
+      "tokens_in": -0.0651,
+      "tokens_out": -0.0516
+    },
+    "pass_ratio": {
+      "cc_before": -0.1431,
+      "mi_before": 0.1114,
+      "delta_cc": -0.1872,
+      "delta_mi": 0.0434,
+      "changed_pct": -0.0893,
+      "quality_score": -0.0816,
+      "solid_score": -0.1411,
+      "dry_score": -0.1322,
+      "kiss_score": -0.0819,
+      "semantic_score": 0.0344,
+      "pass_ratio": 1.0,
+      "tests_failed": -0.4041,
+      "response_time_s": -0.1842,
+      "tokens_in": -0.0215,
+      "tokens_out": -0.1599
+    },
+    "tests_failed": {
+      "cc_before": 0.0745,
+      "mi_before": -0.0163,
+      "delta_cc": 0.0514,
+      "delta_mi": -0.0056,
+      "changed_pct": -0.0034,
+      "quality_score": 0.0319,
+      "solid_score": 0.0186,
+      "dry_score": -0.0042,
+      "kiss_score": 0.0252,
+      "semantic_score": 0.0226,
+      "pass_ratio": -0.4041,
+      "tests_failed": 1.0,
+      "response_time_s": 0.0404,
+      "tokens_in": 0.1216,
+      "tokens_out": 0.0414
+    },
+    "response_time_s": {
+      "cc_before": 0.2484,
+      "mi_before": -0.2077,
+      "delta_cc": 0.6501,
+      "delta_mi": -0.2636,
+      "changed_pct": 0.5904,
+      "quality_score": 0.534,
+      "solid_score": 0.5788,
+      "dry_score": 0.4179,
+      "kiss_score": 0.5619,
+      "semantic_score": -0.1492,
+      "pass_ratio": -0.1842,
+      "tests_failed": 0.0404,
+      "response_time_s": 1.0,
+      "tokens_in": 0.7136,
+      "tokens_out": 0.8191
+    },
+    "tokens_in": {
+      "cc_before": 0.0718,
+      "mi_before": 0.0063,
+      "delta_cc": 0.4716,
+      "delta_mi": -0.2744,
+      "changed_pct": 0.4553,
+      "quality_score": 0.4479,
+      "solid_score": 0.4571,
+      "dry_score": 0.3153,
+      "kiss_score": 0.4386,
+      "semantic_score": -0.0651,
+      "pass_ratio": -0.0215,
+      "tests_failed": 0.1216,
+      "response_time_s": 0.7136,
+      "tokens_in": 1.0,
+      "tokens_out": 0.6892
+    },
+    "tokens_out": {
+      "cc_before": 0.4201,
+      "mi_before": -0.3132,
+      "delta_cc": 0.8464,
+      "delta_mi": -0.5379,
+      "changed_pct": 0.6724,
+      "quality_score": 0.7366,
+      "solid_score": 0.8136,
+      "dry_score": 0.5312,
+      "kiss_score": 0.7523,
+      "semantic_score": -0.0516,
+      "pass_ratio": -0.1599,
+      "tests_failed": 0.0414,
+      "response_time_s": 0.8191,
+      "tokens_in": 0.6892,
+      "tokens_out": 1.0
+    }
+  },
+  "global_matrix_p": {
+    "cc_before": {
+      "cc_before": 0.0,
+      "mi_before": 0.0,
+      "delta_cc": 0.0,
+      "delta_mi": 0.0,
+      "changed_pct": 0.0,
+      "quality_score": 0.0,
+      "solid_score": 0.0,
+      "dry_score": 0.0,
+      "kiss_score": 0.0,
+      "semantic_score": 0.176065,
+      "pass_ratio": 0.007085,
+      "tests_failed": 0.142138,
+      "response_time_s": 1e-06,
+      "tokens_in": 0.156974,
+      "tokens_out": 0.0
+    },
+    "mi_before": {
+      "cc_before": 0.0,
+      "mi_before": 0.0,
+      "delta_cc": 0.0,
+      "delta_mi": 0.0,
+      "changed_pct": 0.0,
+      "quality_score": 1e-06,
+      "solid_score": 0.0,
+      "dry_score": 7e-06,
+      "kiss_score": 0.0,
+      "semantic_score": 0.065984,
+      "pass_ratio": 0.036433,
+      "tests_failed": 0.748425,
+      "response_time_s": 3.6e-05,
+      "tokens_in": 0.90113,
+      "tokens_out": 0.0
+    },
+    "delta_cc": {
+      "cc_before": 0.0,
+      "mi_before": 0.0,
+      "delta_cc": 0.0,
+      "delta_mi": 0.0,
+      "changed_pct": 0.0,
+      "quality_score": 0.0,
+      "solid_score": 0.0,
+      "dry_score": 0.0,
+      "kiss_score": 0.0,
+      "semantic_score": 1.1e-05,
+      "pass_ratio": 0.000406,
+      "tests_failed": 0.311158,
+      "response_time_s": 0.0,
+      "tokens_in": 0.0,
+      "tokens_out": 0.0
+    },
+    "delta_mi": {
+      "cc_before": 0.0,
+      "mi_before": 0.0,
+      "delta_cc": 0.0,
+      "delta_mi": 0.0,
+      "changed_pct": 0.0,
+      "quality_score": 0.0,
+      "solid_score": 0.0,
+      "dry_score": 0.0,
+      "kiss_score": 0.0,
+      "semantic_score": 0.790546,
+      "pass_ratio": 0.415763,
+      "tests_failed": 0.912745,
+      "response_time_s": 0.0,
+      "tokens_in": 0.0,
+      "tokens_out": 0.0
+    },
+    "changed_pct": {
+      "cc_before": 0.0,
+      "mi_before": 0.0,
+      "delta_cc": 0.0,
+      "delta_mi": 0.0,
+      "changed_pct": 0.0,
+      "quality_score": 0.0,
+      "solid_score": 0.0,
+      "dry_score": 0.0,
+      "kiss_score": 0.0,
+      "semantic_score": 3e-06,
+      "pass_ratio": 0.093994,
+      "tests_failed": 0.946255,
+      "response_time_s": 0.0,
+      "tokens_in": 0.0,
+      "tokens_out": 0.0
+    },
+    "quality_score": {
+      "cc_before": 0.0,
+      "mi_before": 1e-06,
+      "delta_cc": 0.0,
+      "delta_mi": 0.0,
+      "changed_pct": 0.0,
+      "quality_score": 0.0,
+      "solid_score": 0.0,
+      "dry_score": 0.0,
+      "kiss_score": 0.0,
+      "semantic_score": 0.0,
+      "pass_ratio": 0.12614,
+      "tests_failed": 0.53105,
+      "response_time_s": 0.0,
+      "tokens_in": 0.0,
+      "tokens_out": 0.0
+    },
+    "solid_score": {
+      "cc_before": 0.0,
+      "mi_before": 0.0,
+      "delta_cc": 0.0,
+      "delta_mi": 0.0,
+      "changed_pct": 0.0,
+      "quality_score": 0.0,
+      "solid_score": 0.0,
+      "dry_score": 0.0,
+      "kiss_score": 0.0,
+      "semantic_score": 0.505961,
+      "pass_ratio": 0.007939,
+      "tests_failed": 0.715239,
+      "response_time_s": 0.0,
+      "tokens_in": 0.0,
+      "tokens_out": 0.0
+    },
+    "dry_score": {
+      "cc_before": 0.0,
+      "mi_before": 7e-06,
+      "delta_cc": 0.0,
+      "delta_mi": 0.0,
+      "changed_pct": 0.0,
+      "quality_score": 0.0,
+      "solid_score": 0.0,
+      "dry_score": 0.0,
+      "kiss_score": 0.0,
+      "semantic_score": 0.048942,
+      "pass_ratio": 0.012909,
+      "tests_failed": 0.934715,
+      "response_time_s": 0.0,
+      "tokens_in": 0.0,
+      "tokens_out": 0.0
+    },
+    "kiss_score": {
+      "cc_before": 0.0,
+      "mi_before": 0.0,
+      "delta_cc": 0.0,
+      "delta_mi": 0.0,
+      "changed_pct": 0.0,
+      "quality_score": 0.0,
+      "solid_score": 0.0,
+      "dry_score": 0.0,
+      "kiss_score": 0.0,
+      "semantic_score": 0.814841,
+      "pass_ratio": 0.12441,
+      "tests_failed": 0.620057,
+      "response_time_s": 0.0,
+      "tokens_in": 0.0,
+      "tokens_out": 0.0
+    },
+    "semantic_score": {
+      "cc_before": 0.176065,
+      "mi_before": 0.065984,
+      "delta_cc": 1.1e-05,
+      "delta_mi": 0.790546,
+      "changed_pct": 3e-06,
+      "quality_score": 0.0,
+      "solid_score": 0.505961,
+      "dry_score": 0.048942,
+      "kiss_score": 0.814841,
+      "semantic_score": 0.0,
+      "pass_ratio": 0.519694,
+      "tests_failed": 0.65689,
+      "response_time_s": 0.003188,
+      "tokens_in": 0.200423,
+      "tokens_out": 0.309859
+    },
+    "pass_ratio": {
+      "cc_before": 0.007085,
+      "mi_before": 0.036433,
+      "delta_cc": 0.000406,
+      "delta_mi": 0.415763,
+      "changed_pct": 0.093994,
+      "quality_score": 0.12614,
+      "solid_score": 0.007939,
+      "dry_score": 0.012909,
+      "kiss_score": 0.12441,
+      "semantic_score": 0.519694,
+      "pass_ratio": 0.0,
+      "tests_failed": 0.0,
+      "response_time_s": 0.000505,
+      "tokens_in": 0.686726,
+      "tokens_out": 0.002588
+    },
+    "tests_failed": {
+      "cc_before": 0.142138,
+      "mi_before": 0.748425,
+      "delta_cc": 0.311158,
+      "delta_mi": 0.912745,
+      "changed_pct": 0.946255,
+      "quality_score": 0.53105,
+      "solid_score": 0.715239,
+      "dry_score": 0.934715,
+      "kiss_score": 0.620057,
+      "semantic_score": 0.65689,
+      "pass_ratio": 0.0,
+      "tests_failed": 0.0,
+      "response_time_s": 0.425967,
+      "tokens_in": 0.01632,
+      "tokens_out": 0.414406
+    },
+    "response_time_s": {
+      "cc_before": 1e-06,
+      "mi_before": 3.6e-05,
+      "delta_cc": 0.0,
+      "delta_mi": 0.0,
+      "changed_pct": 0.0,
+      "quality_score": 0.0,
+      "solid_score": 0.0,
+      "dry_score": 0.0,
+      "kiss_score": 0.0,
+      "semantic_score": 0.003188,
+      "pass_ratio": 0.000505,
+      "tests_failed": 0.425967,
+      "response_time_s": 0.0,
+      "tokens_in": 0.0,
+      "tokens_out": 0.0
+    },
+    "tokens_in": {
+      "cc_before": 0.156974,
+      "mi_before": 0.90113,
+      "delta_cc": 0.0,
+      "delta_mi": 0.0,
+      "changed_pct": 0.0,
+      "quality_score": 0.0,
+      "solid_score": 0.0,
+      "dry_score": 0.0,
+      "kiss_score": 0.0,
+      "semantic_score": 0.200423,
+      "pass_ratio": 0.686726,
+      "tests_failed": 0.01632,
+      "response_time_s": 0.0,
+      "tokens_in": 0.0,
+      "tokens_out": 0.0
+    },
+    "tokens_out": {
+      "cc_before": 0.0,
+      "mi_before": 0.0,
+      "delta_cc": 0.0,
+      "delta_mi": 0.0,
+      "changed_pct": 0.0,
+      "quality_score": 0.0,
+      "solid_score": 0.0,
+      "dry_score": 0.0,
+      "kiss_score": 0.0,
+      "semantic_score": 0.309859,
+      "pass_ratio": 0.002588,
+      "tests_failed": 0.414406,
+      "response_time_s": 0.0,
+      "tokens_in": 0.0,
+      "tokens_out": 0.0
+    }
+  },
+  "targeted": {
+    "changed_pct__vs__quality_score": {
+      "global": {
+        "n": 389,
+        "rho": 0.5976,
+        "p": 0.0
+      },
+      "per_condition": {
+        "A": {
+          "n": 105,
+          "rho": 0.1471,
+          "p": 0.134282
+        },
+        "C": {
+          "n": 105,
+          "rho": 0.6664,
+          "p": 0.0
+        },
+        "G": {
+          "n": 75,
+          "rho": 0.375,
+          "p": 0.000917
+        },
+        "T": {
+          "n": 104,
+          "rho": -0.2224,
+          "p": 0.023235
+        }
+      }
+    },
+    "cc_before__vs__delta_cc": {
+      "global": {
+        "n": 390,
+        "rho": 0.6245,
+        "p": 0.0
+      },
+      "per_condition": {
+        "A": {
+          "n": 105,
+          "rho": 0.9341,
+          "p": 0.0
+        },
+        "C": {
+          "n": 105,
+          "rho": 0.9076,
+          "p": 0.0
+        },
+        "G": {
+          "n": 75,
+          "rho": 0.9237,
+          "p": 0.0
+        },
+        "T": {
+          "n": 105,
+          "rho": null,
+          "p": null
+        }
+      }
+    },
+    "cc_before__vs__delta_mi": {
+      "global": {
+        "n": 390,
+        "rho": -0.3888,
+        "p": 0.0
+      },
+      "per_condition": {
+        "A": {
+          "n": 105,
+          "rho": -0.5846,
+          "p": 0.0
+        },
+        "C": {
+          "n": 105,
+          "rho": -0.5644,
+          "p": 0.0
+        },
+        "G": {
+          "n": 75,
+          "rho": -0.2518,
+          "p": 0.029318
+        },
+        "T": {
+          "n": 105,
+          "rho": 0.0146,
+          "p": 0.882093
+        }
+      }
+    },
+    "quality_score__vs__pass_ratio": {
+      "global": {
+        "n": 353,
+        "rho": -0.0816,
+        "p": 0.12614
+      },
+      "per_condition": {
+        "A": {
+          "n": 96,
+          "rho": 0.0684,
+          "p": 0.507928
+        },
+        "C": {
+          "n": 95,
+          "rho": -0.2261,
+          "p": 0.027572
+        },
+        "G": {
+          "n": 66,
+          "rho": 0.0174,
+          "p": 0.889491
+        },
+        "T": {
+          "n": 96,
+          "rho": -0.172,
+          "p": 0.093721
+        }
+      }
+    },
+    "semantic_score__vs__pass_ratio": {
+      "global": {
+        "n": 353,
+        "rho": 0.0344,
+        "p": 0.519694
+      },
+      "per_condition": {
+        "A": {
+          "n": 96,
+          "rho": 0.164,
+          "p": 0.110316
+        },
+        "C": {
+          "n": 95,
+          "rho": -0.1915,
+          "p": 0.063082
+        },
+        "G": {
+          "n": 66,
+          "rho": 0.0542,
+          "p": 0.665551
+        },
+        "T": {
+          "n": 96,
+          "rho": -0.1343,
+          "p": 0.1921
+        }
+      }
+    },
+    "response_time_s__vs__delta_cc": {
+      "global": {
+        "n": 390,
+        "rho": 0.6501,
+        "p": 0.0
+      },
+      "per_condition": {
+        "A": {
+          "n": 105,
+          "rho": 0.6807,
+          "p": 0.0
+        },
+        "C": {
+          "n": 105,
+          "rho": 0.6255,
+          "p": 0.0
+        },
+        "G": {
+          "n": 75,
+          "rho": 0.601,
+          "p": 0.0
+        },
+        "T": {
+          "n": 105,
+          "rho": null,
+          "p": null
+        }
+      }
+    },
+    "tokens_in__vs__quality_score": {
+      "global": {
+        "n": 389,
+        "rho": 0.4479,
+        "p": 0.0
+      },
+      "per_condition": {
+        "A": {
+          "n": 105,
+          "rho": 0.0997,
+          "p": 0.311446
+        },
+        "C": {
+          "n": 105,
+          "rho": -0.0082,
+          "p": 0.933907
+        },
+        "G": {
+          "n": 75,
+          "rho": 0.0134,
+          "p": 0.908885
+        },
+        "T": {
+          "n": 104,
+          "rho": null,
+          "p": null
+        }
+      }
+    },
+    "changed_pct__vs__pass_ratio": {
+      "global": {
+        "n": 353,
+        "rho": -0.0893,
+        "p": 0.093994
+      },
+      "per_condition": {
+        "A": {
+          "n": 96,
+          "rho": -0.0372,
+          "p": 0.719263
+        },
+        "C": {
+          "n": 95,
+          "rho": -0.036,
+          "p": 0.729077
+        },
+        "G": {
+          "n": 66,
+          "rho": -0.195,
+          "p": 0.116613
+        },
+        "T": {
+          "n": 96,
+          "rho": 0.0401,
+          "p": 0.697912
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "per_condition": {
+    "A": {
+      "n_total": 105,
+      "n_eligible_for_cbb": 105,
+      "n_compile_but_break": 98,
+      "n_applied_green": 7,
+      "n_applied_no_test": 0,
+      "n_not_applied": 0,
+      "cbb_rate": 0.9333,
+      "cbb_rate_wilson_ci": [
+        0.8687,
+        0.9673
+      ]
+    },
+    "C": {
+      "n_total": 105,
+      "n_eligible_for_cbb": 105,
+      "n_compile_but_break": 98,
+      "n_applied_green": 7,
+      "n_applied_no_test": 0,
+      "n_not_applied": 0,
+      "cbb_rate": 0.9333,
+      "cbb_rate_wilson_ci": [
+        0.8687,
+        0.9673
+      ]
+    },
+    "G": {
+      "n_total": 105,
+      "n_eligible_for_cbb": 75,
+      "n_compile_but_break": 71,
+      "n_applied_green": 4,
+      "n_applied_no_test": 0,
+      "n_not_applied": 30,
+      "cbb_rate": 0.9467,
+      "cbb_rate_wilson_ci": [
+        0.8707,
+        0.9791
+      ]
+    },
+    "T": {
+      "n_total": 105,
+      "n_eligible_for_cbb": 105,
+      "n_compile_but_break": 97,
+      "n_applied_green": 8,
+      "n_applied_no_test": 0,
+      "n_not_applied": 0,
+      "cbb_rate": 0.9238,
+      "cbb_rate_wilson_ci": [
+        0.8568,
+        0.9609
+      ]
+    }
+  },
+  "quality_distribution": {
+    "n_cbb": 363,
+    "n_green": 26,
+    "median_quality_cbb": 8.0,
+    "median_quality_green": 5.5,
+    "mean_quality_cbb": 6.7,
+    "mean_quality_green": 6.12,
+    "mannwhitney_U": 5381.5,
+    "mannwhitney_p": 0.213781
+  },
+  "figures": [
+    "C:\\Users\\Lukasz\\Desktop\\master_thesis\\results\\analysis\\figures\\fig_compile_break.png",
+    "C:\\Users\\Lukasz\\Desktop\\master_thesis\\results\\analysis\\figures\\fig_quality_in_cbb.png"
+  ]
+}
